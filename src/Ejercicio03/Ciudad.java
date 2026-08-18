@@ -1,3 +1,5 @@
+package Ejercicio03;
+
 public class Ciudad {
     private String nombre;
     private int habitantes;
