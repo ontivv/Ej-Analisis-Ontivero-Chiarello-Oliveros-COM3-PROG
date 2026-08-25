@@ -1,4 +1,4 @@
-package Ejercicio04;
+package Ejercicio06;
 
 public class ComunidadAutonoma {
     private String nombre;

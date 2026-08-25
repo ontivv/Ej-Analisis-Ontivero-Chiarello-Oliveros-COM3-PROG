@@ -1,4 +1,4 @@
-package Ejercicio04;
+package Ejercicio06;
 
 public class EspecieVegetal extends Especie{
     private boolean tieneFloracion;

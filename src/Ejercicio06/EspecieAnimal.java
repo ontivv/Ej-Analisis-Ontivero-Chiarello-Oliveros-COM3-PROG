@@ -1,4 +1,4 @@
-package Ejercicio04;
+package Ejercicio06;
 
 public class EspecieAnimal extends Especie {
     private String periodoCelo;

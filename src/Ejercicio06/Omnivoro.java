@@ -1,4 +1,4 @@
-package Ejercicio04;
+package Ejercicio06;
 
 public class Omnivoro extends EspecieAnimal{
     public Omnivoro(String nombreVulgar, String nombreCientifico, String periodoCelo) {
