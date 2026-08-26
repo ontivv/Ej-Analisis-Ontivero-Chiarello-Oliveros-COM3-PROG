@@ -1,0 +1,75 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLClass</id><coordinates><x>154</x><y>497</y><w>147</w><h>49</h></coordinates><panel_attributes>_Pista_
+--
+- identificador: int
+- longitud: int
+- dificultad: DificultadPista</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>399</x><y>343</y><w>147</w><h>42</h></coordinates><panel_attributes>_Federacion_
+--
+- nombre: String
+- numeroFederados: int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>329</y><w>161</w><h>91</h></coordinates><panel_attributes>_Estacion_
+--
+- codigoIdentificativo: int
+- nombre: String
+- personasContacto: List
+- direccion: String
+- telefono: String
+- kmsEsquivables: int
+- numeroPistas: int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>623</x><y>217</y><w>147</w><h>28</h></coordinates><panel_attributes>_Equipo_
+--
+- entrenador: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>406</x><y>217</y><w>147</w><h>70</h></coordinates><panel_attributes>_Esquiador_
+--
+- dni: String
+- nombre: String
+- fechaNacimiento: LocalDate
+-
++ getEdad(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>154</x><y>210</y><w>147</w><h>63</h></coordinates><panel_attributes>_Prueba_
+--
+- nombre: String
+- fechasPrevistas: date
+- tiempoVencedor: double
+- tipo: TipoPrueba
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>56</x><y>490</y><w>77</w><h>70</h></coordinates><panel_attributes>_&lt;&lt;enumeration&gt;&gt;_
+DificultadPista
+--
+VERDE
+AZUL
+ROJO
+NEGRO
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>56</x><y>210</y><w>77</w><h>63</h></coordinates><panel_attributes>_&lt;&lt;enumeration&gt;&gt;_
+TipoPrueba
+--
+FONDO
+SLALOM
+SALTO
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>63</y><w>210</w><h>77</h></coordinates><panel_attributes>_&lt;&lt;abstract&gt;&gt;_
+Participante
+--
+- codigo: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>595</x><y>133</y><w>119</w><h>98</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;120</additional_attributes></element><element><id>Relation</id><coordinates><x>469</x><y>133</y><w>133</w><h>98</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>170;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>154</x><y>70</y><w>147</w><h>49</h></coordinates><panel_attributes>_RegistroCompetencia_
+--
+- fechaCompetencia: LocalDate
+- tiempoEmpleado: double
+- posicionObtenida: int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>546</x><y>224</y><w>91</w><h>28</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1= *
+m2= 1</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>252</y><w>126</w><h>91</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes><additional_attributes>10;110;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>84</y><w>210</w><h>35</h></coordinates><panel_attributes>lt=-
+
+</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>217</x><y>112</y><w>21</w><h>112</h></coordinates><panel_attributes>lt=-
+
+</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>105</y><w>210</w><h>154</h></coordinates><panel_attributes>lt=-
+vencedor
+</panel_attributes><additional_attributes>280;10;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>217</x><y>413</y><w>28</w><h>98</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>294</x><y>357</y><w>119</w><h>35</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>217</x><y>266</y><w>21</w><h>77</h></coordinates><panel_attributes>lt=-
+
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>469</x><y>280</y><w>28</w><h>77</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element></diagram>
