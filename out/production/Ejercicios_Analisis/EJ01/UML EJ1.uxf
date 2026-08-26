@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>36</x><y>198</y><w>126</w><h>63</h></coordinates><panel_attributes>_Punto_
+--
+- coordenadaX: double
+- coordenadaY: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>63</x><y>342</y><w>63</w><h>27</h></coordinates><panel_attributes>_Lado_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>207</x><y>198</y><w>126</w><h>63</h></coordinates><panel_attributes>_Poligono_
+--
+- numeroDeLados: int
+- lados: List</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>261</x><y>90</y><w>153</w><h>54</h></coordinates><panel_attributes>_Figura_
+--
+- tipoFigura: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>459</x><y>198</y><w>117</w><h>27</h></coordinates><panel_attributes>_Elipse_
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>306</y><w>90</w><h>45</h></coordinates><panel_attributes>_Circulo_
+--
+- radio: double
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>342</y><w>81</w><h>27</h></coordinates><panel_attributes>_Cuadrilatero_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>450</y><w>81</w><h>27</h></coordinates><panel_attributes>_Rectangulo_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>540</y><w>72</w><h>27</h></coordinates><panel_attributes>_Cuadrado_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>342</y><w>63</w><h>27</h></coordinates><panel_attributes>_Triangulo_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>252</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>279</x><y>252</y><w>117</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;100</additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>360</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>468</y><w>27</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>216</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>135</y><w>135</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;70</additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>135</y><w>81</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>36</y><w>108</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>90;60;90;10;10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>117</x><y>252</y><w>108</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=3..*</panel_attributes><additional_attributes>100;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>252</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=2</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element></diagram>
